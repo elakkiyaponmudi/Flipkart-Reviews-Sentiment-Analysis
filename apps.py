@@ -29,7 +29,7 @@ def recommend_products(query, sentiment_data):
 
 # Streamlit App Interface
 st.set_page_config(page_title="Product Recommendation Engine", layout="wide")
-st.title("🌟 Product Recommendation Engine Based on Sentiment Analysis 🌟")
+st.title("🌟 Product Recommendation Engine 🌟")
 st.markdown("### Find the best products based on your preferences!")
 st.markdown("Enter your product preferences or query below, then click **Search**.")
 
