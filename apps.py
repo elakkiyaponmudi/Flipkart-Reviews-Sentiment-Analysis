@@ -4,7 +4,7 @@ from langchain_community.llms import Cohere  # Ensure you have this package inst
 import cohere
 
 # Load sentiment data
-sentiment_data = pd.read_csv(r"C:\\Users\\Elakkiya\\Flipkart_Products_reviews_with_sentiment.csv")
+sentiment_data = pd.read_csv("Flipkart_Products_reviews_with_sentiment.csv")
 
 # Initialize Cohere (Replace with your Cohere API Key)
 cohere_api_key = 'iNW5Nm65SLd5w136gamg4E6LMaTmWZSGQi2FqorE'  # Replace with your actual API key
@@ -29,7 +29,7 @@ def recommend_products(query, sentiment_data):
 
 # Streamlit App Interface
 st.set_page_config(page_title="Product Recommendation Engine", layout="wide")
-st.title("🌟 Product Recommendation Engine Based on Sentiment Analysis 🌟")
+st.title("🌟 Product Recommendation Engine 🌟")
 st.markdown("### Find the best products based on your preferences!")
 st.markdown("Enter your product preferences or query below, then click **Search**.")
 
