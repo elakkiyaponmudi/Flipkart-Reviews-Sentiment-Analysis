@@ -1,11 +1,13 @@
 **Flipkart Product Reviews Analysis and Recommendation System**
 
--*Project Overview*
+**Project Overview**
 
--The goal of this project is to develop an automated system for collecting and analyzing product reviews from Flipkart. By leveraging web scraping techniques and sentiment analysis, the project aims to generate data-driven product recommendations. The project involves the following key tasks:
+The goal of this project is to develop an automated system for collecting and analyzing product reviews from Flipkart. By leveraging web scraping techniques and sentiment analysis, the project aims to generate data-driven product recommendations. The project involves the following key tasks:
 
-*Key Tasks*
-Web Scraping: Extract product reviews from Flipkart, focusing on various product categories such as electronics, clothing, and home appliances.
+**Key Tasks**
+
+**Web Scraping**: Extract product reviews from Flipkart, focusing on various product categories such as electronics, clothing, and home appliances.
+
 Data Cleaning and Structuring: Process and structure the scraped data to ensure it is suitable for analysis.
 Sentiment Analysis: Determine the overall customer sentiment (positive, negative, neutral) for each product based on the collected reviews.
 Product Recommendation: Recommend top products in each category using the results of the sentiment analysis.
